@@ -1,0 +1,30 @@
+{
+  "meteor": {
+    "git": "https://github.com/meteor/meteor.git",
+    "branch": "auth",
+    "commit": "24377fc980ed0f3f502c5e538a8a873ba354f512"
+  },
+  "dependencies": {
+    "basePackages": {
+      "accounts-ui-styled": {
+        "path": "../package"
+      },
+      "deploy-config": {
+        "version": "0.0.3"
+      }
+    },
+    "packages": {
+      "accounts-ui-styled": {
+        "path": "../package"
+      },
+      "deploy-config": {
+        "git": "https://github.com/possibilities/meteor-deploy-config.git",
+        "tag": "v0.0.3",
+        "commit": "2623b63b5786ab4a13d90bf290c26474ef1131d8"
+      },
+      "accounts-ui-unstyled": {
+        "path": "../../accounts-ui-unstyled"
+      }
+    }
+  }
+}

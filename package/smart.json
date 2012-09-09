@@ -1,0 +1,9 @@
+{
+  "name": "accounts-ui-styled",
+  "description": "Some nice defaults for styling accounts-ui",
+  "packages": {
+    "accounts-ui-unstyled": {
+      "path": "../../accounts-ui-unstyled"
+    }
+  }
+}
